@@ -1,0 +1,54 @@
+
+p {
+    margin-top: 2px;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: Pretendard;
+    margin-left: 10px;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.main1{
+    margin-top: 500px;
+    font-weight: 900;
+    font-size: 65px;
+    font-family: Pretendard;
+    text-decoration: none;
+    display: flex;
+    margin-left: 300px;
+}
+
+
+/*a:hover{*/
+/*    color: #54b3e1;*/
+/*}*/
+
+
+
+.content1 {
+    background-image: url('./YEJIID.jpg');
+    background-size: cover;
+}
+
+#fp-nav {
+    width: 70px;
+}
+
+#fp-nav ul li a span {
+    background-color: #fff;
+}
+
+.fp-table {
+    /*요소들을 컨테이너의 어느 쪽으로 정렬할 것인지*/
+    justify-content: flex-start;
+}
+
+/* 화살표 css */
+/* .fp-arrow{
+    top:400px;
+} */
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FullPage</title>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.5/fullpage.min.css"/>
+    <!-- <link rel="stylesheet" href="./fullpage.min.css" /> -->
+    <link rel="stylesheet" href="portfolio.css"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.5/fullpage.min.js"></script>
+    <!-- <script src="./fullpage.min.js"></script> -->
+</head>
+
+<body>
+<div id="full-page">
+    <div class="section content1">
+        <!--        <a href="#Main">Yeji's PortFolio</a>-->
+        <a class="main1">Yeji's PortFolio</a>
+    </div>
+    <div class="section">
+        <div class="slide">
+            <a href="#Main">
+                <img src="./YejiLeeLogo" alt="logo">
+            </a>
+            <p>About</p>
+        </div>
+        <div class="slide">
+            <a href="#Main">
+                <img src="./YejiLeeLogo" alt="logo">
+            </a>
+            <p>info</p>
+        </div>
+    </div>
+    <div class="section">
+        <a href="#Main">
+            <img src="./YejiLeeLogo" alt="logo">
+        </a>
+        <p>Contact</p>
+    </div>
+    <div class="section">
+        <a href="#Main">
+            <img src="./YejiLeeLogo" alt="logo">
+        </a>
+        <p>Ect</p>
+    </div>
+</div>
+
+
+<script>
+    new fullpage('#full-page', {
+        licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+        anchors: ['Main', 'About', 'contact', 'ect'],
+        //뒷 배경
+        sectionsColor: ['#f8a082', '#85f88e', '#F6CEE3', '#81F7D8'],
+        //네비게이션
+        navigation: true,
+        //네비게이션 section별로 이름
+        navigationTooltips: ['Main', 'About', 'contact', 'ect'],
+        autoScrolling: true,
+        //스크롤 내려가는 시간
+        scrollingSpeed: 1000,
+        scrollHorizontally: true
+    })
+</script>
+
+</body>
+</html>
