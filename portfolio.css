@@ -1,23 +1,15 @@
 
 p {
-    margin-top: 5px;
-    font-weight: 600;
+    margin-top: 2px;
+    font-weight: 400;
     font-size: 30px;
     font-family: Pretendard;
     margin-left: 10px;
-    text-decoration: none;
 }
 
 img{
-    width: 60px;
-    height: 60px;
-    flex-flow: row nowrap;
-}
-
-.Introduce{
-    font-family: Pretendard;
-    font-size: 47px;
-    font-weight: 700;
+    width: 80px;
+    height: 80px;
 }
 
 .main1{
@@ -31,7 +23,7 @@ img{
 }
 
 a{
-    width: 60px;
+    width: 80px;
 }
 
 
@@ -54,13 +46,10 @@ a{
     background-color: #fff;
 }
 
-
 .fp-table {
     /*요소들을 컨테이너의 어느 쪽으로 정렬할 것인지*/
     justify-content: flex-start;
 }
-
-
 
 /* 화살표 css */
 /* .fp-arrow{
