@@ -2,7 +2,6 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
     <title>FullPage</title>
     <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.5/fullpage.min.css"/>
@@ -10,8 +9,7 @@
     <link rel="stylesheet" href="portfolio.css"/>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.5/fullpage.min.js"></script>
-
-
+    <!-- <script src="./fullpage.min.js"></script> -->
 </head>
 
 <body>
@@ -21,72 +19,31 @@
         <a class="main1">Yeji's PortFolio</a>
     </div>
     <div class="section">
-        <!--        about page -->
         <div class="slide">
-            <div class="title">
-                <a href="#Main">
-                    <img class="logo" src="./YejiLeeLogo" alt="logo">
-                </a>
-                <p>About</p>
-            </div>
-            <p class="about"></p>
-            <div class="paragraph">
-                <p class="text">풀 스택 개발자가 되고 싶은 도전하는 개발자 이예지입니다.</p>
-                <p class="text">언어는 JAVA,Python,C++ 등 다양한 언어를 공부하였고, 회사에서는 Spring boot와 java를 주로 사용하였습니다.</p>
-                <p class="text">영상 제작, 게임 개발, 웹 사이트 개발 등 개발하는 것을 좋아합니다.</p>
-                <p class="text">'안 되면 될 때까지 해보자.' 가 저의 좌우명이며, 불 가능한 일이라도 열심히 최선을 다해서 하려고 합니다.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="section">
-        <!--info page-->
-        <div class="title">
             <a href="#Main">
-                <img class="logo" src="./YejiLeeLogo" alt="logo">
+                <img src="./YejiLeeLogo" alt="logo">
+            </a>
+            <p>About</p>
+            <p class="info">예G는 회사를 통해 5G를 꿈꿉니다.</p>
+        </div>
+        <div class="slide">
+            <a href="#Main">
+                <img src="./YejiLeeLogo" alt="logo">
             </a>
             <p>info</p>
         </div>
-        <div class="info">
-            <div class="img_Aha">
-                <img class="Aha" src="Aha.png">
-            </div>
-            <div class="info_texts">
-                <div class="education">
-                    <p class="subject">학력사항</p>
-                    <p class="contents">서울디지털대학교 컴퓨터 공학과 2022.03 ~ 재학중</p>
-                    <p class="contents">한양여자대학교 스마트 IT 학과 2017.03 ~ 2021.02</p>
-                </div>
-                <div class="career">
-                    <p class="subject">이력</p>
-                    <p class="contents">엠브레이스 백엔드(java,SpringBoot,mysql),모듈 개발 2021.04 ~ 2022.01</p>
-                    <p class="contents">퍼브 웹 페이지 오류 검사,목업 등 2019.11 ~ 2020.01</p>
-                </div>
-                <div class="stack">
-                    <p class="subject">스택</p>
-                    <p class="contents"><b>JAVA / SpringBoot / mysql</b></p>
-                    <p class="contents">Html / CSS / JavaScript / C++ / Python / Django / Node.js</p>
-                </div>
-            </div>
-        </div>
     </div>
-
     <div class="section">
-        <div class="title">
-            <a href="#Main">
-                <img class="logo" src="./YejiLeeLogo" alt="logo">
-            </a>
-            <p>Contact</p>
-        </div>
+        <a href="#Main">
+            <img src="./YejiLeeLogo" alt="logo">
+        </a>
+        <p>Contact</p>
     </div>
-
     <div class="section">
-        <div class="title">
-            <a href="#Main">
-                <img class="logo" src="./YejiLeeLogo" alt="logo">
-            </a>
-            <p>Ect</p>
-        </div>
+        <a href="#Main">
+            <img src="./YejiLeeLogo" alt="logo">
+        </a>
+        <p>Ect</p>
     </div>
 </div>
 
@@ -94,22 +51,20 @@
 <script>
     new fullpage('#full-page', {
         licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
-        //각 페이지 이름
-        anchors: ['Main', 'About', 'Info', 'Contact', 'Ect'],
+     //각 페이지 이름   
+anchors: ['Main', 'About', 'contact', 'ect'],
         //뒷 배경
-        sectionsColor: ['#f8a082', '#e6e6e9', '#e6e6e9', '#F6CEE3', '#81F7D8'],
+        sectionsColor: ['#f8a082', '#e6e6e9', '#F6CEE3', '#81F7D8'],
         //네비게이션
         navigation: true,
         //네비게이션 section별로 이름
-        navigationTooltips: ['Main', 'About', 'Info', 'contact', 'ect'],
+        navigationTooltips: ['Main', 'About', 'contact', 'ect'],
         autoScrolling: true,
         //스크롤 내려가는 시간
         scrollingSpeed: 1000,
         scrollHorizontally: true
     })
 </script>
-
-<script src="./fullpage.min.js"></script>
 
 </body>
 </html>
