@@ -1,14 +1,30 @@
 
 p {
-    margin-top: 4px;
     font-weight: 600;
     font-size: 30px;
     font-family: Pretendard;
-    margin-left: 10px;
+    margin-left: 0.3%;
+    margin-top: 1vh;
 }
+
+
+
 .info{
     font-weight: 700;
-    font-size: 40px;
+    font-size: 4.5vh;
+    margin-left: 1.5%;
+    margin-top: 2%;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 3vh;
+    margin-left: 13vw;
+    margin-right: 13vw;
+}
+
+.paragraph{
+    margin-top: 18vh;
 }
 
 img{
@@ -16,19 +32,24 @@ img{
     height: 60px;
 }
 
+.title{
+    text-decoration: none;
+    display: flex;
+}
+
+
 .main1{
     margin-top: 500px;
     font-weight: 900;
     font-size: 65px;
     font-family: Pretendard;
+    /*선 만들기*/
     text-decoration: none;
+    /*수평 정렬*/
     display: flex;
     margin-left: 300px;
 }
 
-a{
-    width: 60px;
-}
 
 
 /*a:hover{*/
@@ -42,8 +63,14 @@ a{
     background-size: cover;
 }
 
+
 #fp-nav {
-    width: 70px;
+    margin-right: 2.5%;
+
+}
+
+#fp-nav ul{
+    width: auto;
 }
 
 #fp-nav ul li a span {
