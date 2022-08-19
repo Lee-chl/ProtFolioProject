@@ -9,18 +9,18 @@ p {
 
 
 
-.info{
+.about{
+    display: table-cell;
     font-weight: 700;
-    font-size: 4.5vh;
-    margin-left: 1.5%;
-    margin-top: 2%;
+    font-size: 8vh;
+    margin-top: 5%;
+    text-align: center
 }
 
 .text{
     font-weight: 500;
     font-size: 3vh;
-    margin-left: 13vw;
-    margin-right: 13vw;
+    text-align: center;
 }
 
 .paragraph{
@@ -48,6 +48,37 @@ img{
     /*수평 정렬*/
     display: flex;
     margin-left: 300px;
+}
+
+.info{
+    margin-top: 10vh;
+    margin-left: 13vw;
+    margin-right: 13vw;
+}
+
+
+.education{
+    margin-top: 4vh;
+
+}
+.subject{
+    font-size: 3.5vh;
+    color: #315089;
+    font-weight: 800;
+}
+
+.contents{
+    margin-left: 3vw;
+    margin-top: -1.5vh;
+    font-size: 3vh;
+}
+
+.career{
+    margin-top: 7vh;
+}
+
+.stack{
+    margin-top: 7vh;
 }
 
 
@@ -81,6 +112,8 @@ img{
     /*요소들을 컨테이너의 어느 쪽으로 정렬할 것인지*/
     justify-content: flex-start;
 }
+
+
 
 /* 화살표 css */
 /* .fp-arrow{
