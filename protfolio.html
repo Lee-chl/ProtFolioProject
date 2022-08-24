@@ -25,7 +25,7 @@
         <div class="slide">
             <div class="title">
                 <a href="#Main">
-                    <img src="./YejiLeeLogo" alt="logo">
+                    <img class="logo" src="./YejiLeeLogo" alt="logo">
                 </a>
                 <p>About</p>
             </div>
@@ -43,25 +43,30 @@
         <!--info page-->
         <div class="title">
             <a href="#Main">
-                <img src="./YejiLeeLogo" alt="logo">
+                <img class="logo" src="./YejiLeeLogo" alt="logo">
             </a>
             <p>info</p>
         </div>
         <div class="info">
-            <div class="education">
-                <p class="subject">학력사항</p>
-                <p class="contents">서울디지털대학교 컴퓨터 공학과 2022.03 ~ 재학중</p>
-                <p class="contents">한양여자대학교 스마트 IT 학과 2017.03 ~ 2021.02</p>
+            <div class="img_Aha">
+                <img class="Aha" src="Aha.png">
             </div>
-            <div class="career">
-                <p class="subject">이력</p>
-                <p class="contents">엠브레이스 백엔드(java,SpringBoot,mysql),모듈 개발 2021.04 ~ 2022.01</p>
-                <p class="contents">퍼브 웹 페이지 오류 검사,목업 등 2019.11 ~ 2020.01</p>
-            </div>
-            <div class="stack">
-                <p class="subject">스택</p>
-                <p class="contents"><b>JAVA / SpringBoot / mysql</b></p>
-                <p class="contents">Html / CSS / JavaScript / C++ / Python / Django / Node.js</p>
+            <div class="info_texts">
+                <div class="education">
+                    <p class="subject">학력사항</p>
+                    <p class="contents">서울디지털대학교 컴퓨터 공학과 2022.03 ~ 재학중</p>
+                    <p class="contents">한양여자대학교 스마트 IT 학과 2017.03 ~ 2021.02</p>
+                </div>
+                <div class="career">
+                    <p class="subject">이력</p>
+                    <p class="contents">엠브레이스 백엔드(java,SpringBoot,mysql),모듈 개발 2021.04 ~ 2022.01</p>
+                    <p class="contents">퍼브 웹 페이지 오류 검사,목업 등 2019.11 ~ 2020.01</p>
+                </div>
+                <div class="stack">
+                    <p class="subject">스택</p>
+                    <p class="contents"><b>JAVA / SpringBoot / mysql</b></p>
+                    <p class="contents">Html / CSS / JavaScript / C++ / Python / Django / Node.js</p>
+                </div>
             </div>
         </div>
     </div>
@@ -69,7 +74,7 @@
     <div class="section">
         <div class="title">
             <a href="#Main">
-                <img src="./YejiLeeLogo" alt="logo">
+                <img class="logo" src="./YejiLeeLogo" alt="logo">
             </a>
             <p>Contact</p>
         </div>
@@ -78,7 +83,7 @@
     <div class="section">
         <div class="title">
             <a href="#Main">
-                <img src="./YejiLeeLogo" alt="logo">
+                <img class="logo" src="./YejiLeeLogo" alt="logo">
             </a>
             <p>Ect</p>
         </div>
@@ -90,13 +95,13 @@
     new fullpage('#full-page', {
         licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
         //각 페이지 이름
-        anchors: ['Main', 'About','Info' ,'Contact', 'Ect'],
+        anchors: ['Main', 'About', 'Info', 'Contact', 'Ect'],
         //뒷 배경
         sectionsColor: ['#f8a082', '#e6e6e9', '#e6e6e9', '#F6CEE3', '#81F7D8'],
         //네비게이션
         navigation: true,
         //네비게이션 section별로 이름
-        navigationTooltips: ['Main', 'About', 'Info','contact', 'ect'],
+        navigationTooltips: ['Main', 'About', 'Info', 'contact', 'ect'],
         autoScrolling: true,
         //스크롤 내려가는 시간
         scrollingSpeed: 1000,
